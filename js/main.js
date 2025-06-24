@@ -18,7 +18,6 @@ function open(evt) {
   tabContent.forEach(function (item) {
     item.classList.remove('tabs__content-item--active');
   });
-
   tabTarget.classList.add('tabs__btn-item--active');
   document
     .querySelector(`#${button}`)
@@ -31,3 +30,5 @@ const menu = document.querySelector('.menu');
 menuBtn.addEventListener('click', () => {
   menu.classList.toggle('menu--active');
 });
+
+
