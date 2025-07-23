@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    
+   
     <header class="header">
         <div class="container">
             <nav class="nav">
@@ -18,9 +18,10 @@
                  <span></span>
               </button>
                 <ul class="menu">
-                    <li class="menu__list"><a href="" class="menu__link">SHOP</a></li>
-                    <li class="menu__list"><a href="" class="menu__link">GAMES</a></li>
-                    <li class="menu__list"><a href="" class="menu__link">METAVERSE</a></li>
+                    <li class="menu__list"><a href="#shop" class="menu__link">SHOP</a></li>
+                    <li class="menu__list"><a href="#game" class="menu__link">GAMES</a></li>
+                    <li class="menu__list"><a href="#meta" class="menu__link">METAVERSE</a></li>
+                    <li class="menu__list"><a href="#con" class="menu__link">CONTACT</a></li>
                 </ul>
                 <a href="#" class="logo">
                     <img src="images/logo.svg" alt="">
@@ -35,7 +36,7 @@
 
 
    
-    <main class="main">
+    <main class="main" id="shop">
         <section class="top">
             <div class="container">
                <h1 class="title">Meta Quest 2</h1>
@@ -54,7 +55,7 @@
 
       
 
-        <section class="features">
+        <section class="features" id="meta">
             <div class="container">
                 <div class="features__titles">
                     <h2 class="features__title section-title">PRODUCT FEATURES</h2>
@@ -221,6 +222,7 @@
             </button>
             <p class="buy__text">Meta Quest 2 is for ages 13+</p>
           </div>
+          
          
 
           <section class="equipment">
@@ -261,6 +263,27 @@
               </div>
             </div>
           </div>
+
+
+
+          <section class="news">
+            
+            <div class="news-card">
+              <h3>Новость 1</h3>
+              <p>Краткое описание первой новости. Пара интересных предложений.</p>
+              <button>Читать далее</button>
+            </div>
+            <div class="news-card">
+              <h3>Новость 2</h3>
+              <p>Краткий текст второй новости. Немного информации и интриги.</p>
+              <button>Читать далее</button>
+            </div>
+            <div class="news-card">
+              <h3>Новость 3</h3>
+              <p>Описание третьей новости. Что-то важное и интересное.</p>
+              <button>Читать далее</button>
+            </div>
+          </section>
           
 
           <section class="accessories">
@@ -299,9 +322,89 @@
               </div>
             </div>
           </section>
-          
 
-          <section class="contacts" id="contact">
+
+
+          <section class="trust">
+            <h2 class="trust__text">Trusted by 20,000+ companies</h2>
+            <div class="photos">
+                <img src="images/master.png" alt="">
+                <img src="images/air.png" alt="">
+                <img src="images/uber.png" alt="">
+                <img src="images/paypal.png" alt="">
+                <img src="images/visa.png" alt="">
+                <img src="images/stripe.png" alt="">
+            </div>
+            </section>
+            
+            
+            
+            
+            <section class="aboutUS">
+                
+            <div class="aboutDIV">
+                <img src="images/couch.png" alt="">
+            </div>
+            
+            
+            <div class="aboutDIV2">
+                <h2 class="aboutH">About us</h2>
+                <p class="aboutP">All of our furniture uses the best materials and<br> choices for our customers.All of our furniture<br> uses the best materials</p>
+            
+            
+                <div class="photosAbout">
+                    <img class="aboutPHOTO" src="images/shield.png" alt="">
+                    <div class="insideAbout">
+                    <h3 class="aboutClass">Best Quality</h3>
+                    <p class="pAbt">All of our furniture uses the best<br> materials and choices</p>
+                </div>
+                </div>
+            
+            
+                <div class="photosAbout">
+                    <img class="aboutPHOTO" src="images/check.png" alt="">
+                    <div class="insideAbout">
+                    <h3 class="aboutClass">100% Secure</h3>
+                    <p class="pAbt">All of our furniture uses the best<br> materials and choices</p>
+                </div>
+                </div>
+            
+            
+            
+                <div class="photosAbout">
+                    <img class="aboutPHOTO" src="images/free.png" alt="">
+                    <div class="insideAbout">
+                    <h3 class="aboutClass">Free Shpping</h3>
+                    <p class="pAbt">All of our furniture uses the best<br> materials and choices</p>
+                </div>
+                </div>
+            
+            </div>
+            </section>
+
+
+
+
+
+          <section class="reviews">
+            <div class="review-card">
+              <h4>Andrew K.</h4>
+              <p>Amazing product! My kids love their new oculus 2.</p>
+              <div class="stars">★★★★★</div>
+            </div>
+            <div class="review-card">
+              <h4>Anna F.</h4>
+              <p>Super comfortable headset for an amazing price</p>
+              <div class="stars">★★★★☆</div>
+            </div>
+            <div class="review-card">
+              <h4>Ivan S.</h4>
+              <p>Really fast customer help! For sure recommend! </p>
+              <div class="stars">★★★★★</div>
+            </div>
+          </section>         
+
+          <section class="contacts" id="con">
             <div class="container">
               <h2 class="contacts__title">Get news and updates</h2>
               <div class="contacts__inner">
@@ -372,7 +475,14 @@
       </div>
 
     </footer>
+ 
     <script src="js/main.js"></script>
     
+
+
+  
+    
+
+
 </body>
 </html>
